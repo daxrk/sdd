@@ -49,6 +49,8 @@ a#mi {
     /* اختياري: لإزالة حدود الإطار */
 }
 
+#game:before,#apk:before,#web:before,#fre:before,#pubg:before {content:"#"}
+
 footer span i {
     vertical-align: middle;
 }
@@ -139,7 +141,7 @@ padding: 4px;
 
 #sucial {
      position: absolute;
-    bottom: 5px;
+    bottom: 0px;
     display: flex;
     background: #bf152c;
     width: 100%;
