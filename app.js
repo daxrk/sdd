@@ -34,6 +34,11 @@
                 // Update the source of the iframe
                 $("iframe").attr("src", "https://www.mobilltna.net/explanations/technology/");
             });
+  $("#mi").click(function () {
+                // Update the source of the iframe
+                $("iframe").attr("src", "https://www.mobilltna.net/internet-speed-test-online/");
+            });
+  
             $("#news").click(function () {
                 // Update the source of the iframe
                 $("iframe").attr("src", "https://www.mobilltna.net/mobile-apps/");
