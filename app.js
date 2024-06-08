@@ -87,7 +87,7 @@
                 openNav();
             });
 
-            $("#close-menu,#me,#call span,#ad").click(function () {
+            $("#close-menu,#me,#call span,#ad,#apk,#fre,#pubg,#web,#game").click(function () {
                 closeNav();
             });
 
