@@ -63,7 +63,26 @@
                 // Update the source of the iframe
                 $("iframe").attr("src", "https://www.mobilltna.net/who-are-we/");
             });
-
+   $("#apk").click(function () {
+                // Update the source of the iframe
+                $("iframe").attr("src", "https://www.mobilltna.net/mobile-apps/apps-plus/");
+            });
+     $("#game").click(function () {
+                // Update the source of the iframe
+                $("iframe").attr("src", "https://www.mobilltna.net/mobile-games/game-plus/");
+            });
+     $("#web").click(function () {
+                // Update the source of the iframe
+                $("iframe").attr("src", "https://www.mobilltna.net/explanations/the-best-sites/");
+            });
+     $("#fre").click(function () {
+                // Update the source of the iframe
+                $("iframe").attr("src", "https://www.mobilltna.net/free-fire-name-generator/");
+            });
+  $("#pubg").click(function () {
+                // Update the source of the iframe
+                $("iframe").attr("src", "https://www.mobilltna.net/pubg-name-generator/");
+            });
             $("#open-menu").click(function () {
                 openNav();
             });
