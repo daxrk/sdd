@@ -113,9 +113,9 @@ footer span {
 padding: 4px;
     text-align: center;
     border-top: 1px solid #df2829;
-    bottom: 5px;
+    bottom: 57px;
     background: white;
-    position: relative;
+    position: absolute;
 }
 
 #call span {
@@ -138,8 +138,8 @@ padding: 4px;
 }
 
 #sucial {
-     position: relative;
-    bottom: 0;
+     position: absolute;
+    bottom: 5px;
     display: flex;
     background: #bf152c;
     width: 100%;
