@@ -113,7 +113,7 @@ footer span {
 
 .active1 {
     border-radius: 20px;
-    background-color: #df2829;
+    background-color: #bf152c;
     width: 30%;
     transition: 0.2s;
     box-shadow: 0 4px 24px rgb(0 0 0 / 25%);
@@ -124,7 +124,7 @@ footer span {
     position: absolute;
     bottom: 0;
     display: flex;
-    background: #df2829;
+    background: #bf152c;
     width: 100%;
     padding: 11px;
     color: white;
@@ -207,7 +207,7 @@ footer span {
     width: 36px;
     height: 36px;
     border-radius: 36px;
-    background-color: #df2829;
+    background-color: #bf152c;
     color: #ffffff;
     font-size: 16px;
     cursor: pointer;
@@ -274,7 +274,7 @@ header #home {
     width: 36px;
     height: 36px;
     border-radius: 36px;
-    background-color: #df2829;
+    background-color: #bf152c;
     color: #ffffff;
     font-size: 18px;
     cursor: pointer;
