@@ -21,7 +21,11 @@
     height: 100%;
 }
 
-a#mi img {width: 36px;vertical-align: bottom;height: 100%;display: inline-block;float: right;}
+a#mi img {    width: 100%;
+    vertical-align: bottom;
+    height: 100%;
+    display: inline-block;
+    float: right;}
 
 a#mi {
     width: 185px;
