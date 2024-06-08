@@ -42,7 +42,7 @@ header {
     background-color: #fff;
     width: 100%;
     text-align: center;
-    border-bottom: 2px solid #df2829;
+    border-bottom: 2px solid #bf152c;
     user-select: none;
     padding: 10px 0;
     top: 0;
@@ -55,7 +55,7 @@ footer {
     background-color: #fff;
     width: 100%;
     text-align: center;
-    border-top: 2px solid #df2829;
+    border-top: 2px solid #bf152c;
     user-select: none;
     padding: 15px 0;
     bottom: 0;
