@@ -20,6 +20,7 @@
     width: 100%;
     height: 100%;
 }
+
 a#mi img {width: 36px;vertical-align: bottom;height: 100%;display: inline-block;float: right;}
 
 a#mi {
@@ -33,6 +34,7 @@ a#mi {
     margin-right: 6px;
     font-size: 15px;
 }
+
 #myIframe {
     width: 100%;
     height: 100vh;
