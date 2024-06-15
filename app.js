@@ -113,25 +113,17 @@
             $("#dark").click(function () {
                 darkMode = !darkMode;
 
-                if (darkMode) {
-                    $("#dark").text("الوضع الضوء");
-                    $("#side-menu").css("background-color", "#171717");
-                    $("#side-menu ul li").css("background-color", "#171717");
-                    $("#side-menu a").css("color", "#fff");
-                    $("#call").css({
-                        "background-color": "#171717",
-                        "color": "#fff"
-                    });
-                } else {
-                    $("#dark").text("الوضع الداكن");
-                    $("#side-menu").css("background-color", ""); // Reset to default
-                    $("#side-menu ul li").css("background-color", ""); // Reset to default
-                    $("#side-menu a").css("color", ""); // Reset to default
-                    $("#call").css({
-                        "background-color": "", // Reset to default
-                        "color": "" // Reset to default
-                    });
-                }
+             if (darkMode) {
+    $("#dark").text("الوضع الضوء");
+    // تحديث الرمز المستخدم في الوضع الضوئي
+    $("#dark::before").css("content", "'\f185'");
+    $("#dark").attr("href", "##");
+} else {
+    $("#dark").text("الوضع الداكن");
+    // تحديث الرمز المستخدم في الوضع الداكن
+    $("#dark::before").css("content", "'\f186'");
+    $("#dark").attr("href", "####");
+}
             });
 
         });
