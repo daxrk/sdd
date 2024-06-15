@@ -290,13 +290,11 @@ ul li a::before {
     content: '\f1e0';
 }
 
-#dark::before {
-    content: '\f186';
-}
-.dark-mode #dark::before {
+
+.dark-mode::before {
     content: '\f186'; /* أيقونة للوضع الداكن */
 }
-.light-mode #dark::before {
+.light-mode::before {
     content: '\f185'; /* أيقونة للوضع الداكن */
 }
 #open-menu::before,
