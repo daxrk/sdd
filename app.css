@@ -293,7 +293,12 @@ ul li a::before {
 #dark::before {
     content: '\f186';
 }
-
+.dark-mode #dark::before {
+    content: '\f186'; /* أيقونة للوضع الداكن */
+}
+.light-mode #dark::before {
+    content: '\f185'; /* أيقونة للوضع الداكن */
+}
 #open-menu::before,
 ul li a::before,
 header #home::before {
