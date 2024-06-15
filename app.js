@@ -113,17 +113,16 @@
             $("#dark").click(function () {
                 darkMode = !darkMode;
 
-             if (darkMode) {
+if (darkMode) {
     $("#dark").text("الوضع الضوء");
-    // تحديث الرمز المستخدم في الوضع الضوئي
-    $("#dark::before").css("content", "'\f185'");
+    $("#dark").attr("class", "light-mode"); // تغيير الفئة للوضع الضوئي
     $("#dark").attr("href", "##");
 } else {
     $("#dark").text("الوضع الداكن");
-    // تحديث الرمز المستخدم في الوضع الداكن
-    $("#dark::before").css("content", "'\f186'");
+    $("#dark").attr("class", "dark-mode"); // تغيير الفئة للوضع الداكن
     $("#dark").attr("href", "####");
 }
+
             });
 
         });
